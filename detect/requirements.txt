@@ -1,0 +1,8 @@
+# 检测模块（detect/）依赖。攻击侧 requirements.txt 未做改动。
+# CPU 安装（PPT 风险应对：云端 GPU 训练、CPU 核心验证）：
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
+numpy>=1.19
+opencv-python>=4.5
+
+# swap 模式生成数据集还需攻击侧依赖（dlib + shape_predictor_68_face_landmarks.dat）
